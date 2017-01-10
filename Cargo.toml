@@ -1,0 +1,14 @@
+[package]
+authors = ["Sergey Alexandrov <splavgm@gmail.com>"]
+build = "build.rs"
+name = "cgns-sys"
+version = "0.1.0"
+description = "Bindings to cgns."
+license = "License"
+
+repository = "https://github.com/splav/cgns-sys"
+homepage = "https://github.com/splav/cgns-sys"
+
+
+[build-dependencies]
+libbindgen = "0.1.6"
